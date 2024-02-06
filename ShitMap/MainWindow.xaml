@@ -1,0 +1,44 @@
+﻿<Window x:Class="ShitMap.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ShitMap"
+        mc:Ignorable="d"
+        ResizeMode="CanMinimize"
+        Title="MainWindow" Height="432" Width="1048" >
+
+    <Window.Background>
+        <ImageBrush ImageSource="/image1.png" TileMode="None" Stretch="Fill" />
+    </Window.Background>
+    <Canvas x:Name="map">
+        <Border Canvas.Top="250" x:Name="b7" Width="135" BorderBrush="Black" BorderThickness="1" Height="156" HorizontalAlignment="Center" VerticalAlignment="Top" Canvas.Left="900" />
+        <Border Canvas.Top="250" x:Name="b8" Width="128" BorderBrush="Black" BorderThickness="1" Height="156" HorizontalAlignment="Center" VerticalAlignment="Top" Canvas.Left="772" />
+
+        <Border Canvas.Top="250" x:Name="b9" Width="75" BorderBrush="Black" BorderThickness="1" Height="156" HorizontalAlignment="Center" VerticalAlignment="Top" Canvas.Left="700" />
+        <Border Canvas.Top="250" x:Name="b10" Width="54" BorderBrush="Black" BorderThickness="1" Height="156" HorizontalAlignment="Center" VerticalAlignment="Top" Canvas.Left="646" />
+        <Border Canvas.Top="250" x:Name="b11" Width="73" BorderBrush="Black" BorderThickness="1" Height="156" HorizontalAlignment="Center" VerticalAlignment="Top" Canvas.Left="573" />
+        <Border Canvas.Top="250" x:Name="b12" Width="124" BorderBrush="Black" BorderThickness="1" Height="156" HorizontalAlignment="Center" VerticalAlignment="Top" Canvas.Left="448" />
+        <Border Canvas.Top="250" x:Name="b13" Width="48" BorderBrush="Black" BorderThickness="1" Height="156" HorizontalAlignment="Center" VerticalAlignment="Top" Canvas.Left="400" />
+        <Border Canvas.Top="250" x:Name="b14" Width="182" BorderBrush="Black" BorderThickness="1" Height="156" HorizontalAlignment="Center" VerticalAlignment="Top" Canvas.Left="222" />
+        <Border Canvas.Top="250" x:Name="b15" Width="140" BorderBrush="Black" BorderThickness="1" Height="156" HorizontalAlignment="Center" VerticalAlignment="Top" Canvas.Left="88" />
+        <Border Canvas.Top="250" x:Name="b16" Width="87" BorderBrush="Black" BorderThickness="1" Height="156" HorizontalAlignment="Center" VerticalAlignment="Top" Canvas.Left="1" />
+
+        <Border x:Name="b17" Width="50" BorderBrush="Black" BorderThickness="1" Height="140" />
+        <Border x:Name="b18" Width="46" BorderBrush="Black" BorderThickness="1" Height="140" HorizontalAlignment="Left" Canvas.Left="50" VerticalAlignment="Center" />
+        <Border x:Name="b19" Width="92" BorderBrush="Black" BorderThickness="1" Height="140" HorizontalAlignment="Left" Canvas.Left="95" VerticalAlignment="Center" />
+        <Border x:Name="b20" Width="47" BorderBrush="Black" BorderThickness="1" Height="140" HorizontalAlignment="Left" Canvas.Left="187" VerticalAlignment="Center" />
+        <Border x:Name="b21" Width="128" BorderBrush="Black" BorderThickness="1" Height="140" HorizontalAlignment="Left" Canvas.Left="235" VerticalAlignment="Center" />
+        <Border x:Name="b22" Width="47" BorderBrush="Black" BorderThickness="1" Height="140" HorizontalAlignment="Left" Canvas.Left="360" VerticalAlignment="Center" />
+        <Border x:Name="b0" Width="76" BorderBrush="Black" BorderThickness="1" Height="95" HorizontalAlignment="Left" Canvas.Left="453" VerticalAlignment="Top" />
+        <Border x:Name="b1" Width="91" BorderBrush="Black" BorderThickness="1" Height="140" Canvas.Left="600" HorizontalAlignment="Center" VerticalAlignment="Top" />
+        <Border x:Name="b2" Width="49" BorderBrush="Black" BorderThickness="1" Height="140" Canvas.Left="690" HorizontalAlignment="Left" VerticalAlignment="Center" />
+        <Border x:Name="b3" Width="48" BorderBrush="Black" BorderThickness="1" Height="140" Canvas.Left="736" HorizontalAlignment="Left" VerticalAlignment="Center" />
+        <Border x:Name="b4" Width="72" BorderBrush="Black" BorderThickness="1" Height="140" Canvas.Left="783" HorizontalAlignment="Left" VerticalAlignment="Center" />
+        <Border x:Name="b5" Width="81" BorderBrush="Black" BorderThickness="1" Height="140" Canvas.Left="855" HorizontalAlignment="Left" VerticalAlignment="Center" />
+        <Border x:Name="b6" Width="100" BorderBrush="Black" BorderThickness="1" Height="140" Canvas.Left="935" HorizontalAlignment="Center" VerticalAlignment="Top" />
+
+
+
+    </Canvas>
+</Window>
